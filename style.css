@@ -1,0 +1,61 @@
+.type{
+   height: 400px;
+   width: 300px;
+   box-shadow: 2px 4px 6px black;
+   text-align: center;
+   border-radius: 10px;
+   padding: 5px;
+}
+.uu{
+    display: flex;
+    gap: 50px;
+}
+.shit{
+    width: 300px;
+}
+
+#main{
+    background-color: darkgreen;
+    height: 60px;
+    /* margin-top: -30px; */
+    padding: 15px;
+}
+ul, li{
+    display: flex;
+    font-size: 20px;
+    gap: 40px;
+    list-style-type: none;
+    justify-content: center;
+}
+li:hover{
+    color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+    .uu{
+        display: grid;
+        gap: 50px;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    ul, li{
+        display: flex;
+        font-size: 12px;
+        /* gap: 2px; */
+        list-style-type: none;
+        justify-content: start;
+    }
+    #main{
+        background-color: darkgreen;
+        height: 40px;
+        width: 360px;
+        /* margin-top: -30px; */
+        padding: 15px;
+    }
+    body{
+        background-color: goldenrod;
+    }
+     
+}
+
